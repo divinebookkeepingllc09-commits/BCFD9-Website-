@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butler County Fire District No. 9 | Leon, KS</title>
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased selection:bg-red-600 selection:text-white">
+
+    <!-- TOP BAR -->
+    <div class="bg-red-950 text-red-200 text-xs sm:text-sm py-2 px-4 border-b border-red-900">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <span><i class="fa-solid fa-location-dot text-red-500 mr-1"></i> 201 S. Main St., Leon, KS 67074</span>
+                <span class="hidden md:inline"><i class="fa-solid fa-shield-halved text-red-500 mr-1"></i> 100% Volunteer Fire Department</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="tel:3167453658" class="hover:text-white transition"><i class="fa-solid fa-phone text-red-500 mr-1"></i> 316-745-3658</a>
+                <a href="https://www.facebook.com/share/1DSNvpsRje/?mibextid=wwXIfr" target="_blank" class="hover:text-white transition"><i class="fa-brands fa-facebook text-red-500 mr-1"></i> Facebook</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="sticky top-0 z-50 bg-gray-900/95 backdrop-blur border-b border-gray-800 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <!-- Replace with your uploaded logo file name if hosting images locally -->
+                <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center font-black text-xl text-white shadow-md border-2 border-red-500">
+                    9
+                </div>
+                <div>
+                    <span class="block font-black text-lg tracking-wider text-white uppercase leading-none">BCFD #9</span>
+                    <span class="text-xs text-red-500 font-semibold tracking-widest uppercase">Leon, Kansas</span>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center gap-8 font-semibold text-sm tracking-wide">
+                <a href="#about" class="hover:text-red-500 transition">About</a>
+                <a href="#leadership" class="hover:text-red-500 transition">Leadership</a>
+                <a href="#apparatus" class="hover:text-red-500 transition">Apparatus</a>
+                <a href="#contact" class="hover:text-red-500 transition">Contact</a>
+                <a href="https://www.facebook.com/share/1DSNvpsRje/?mibextid=wwXIfr" target="_blank" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg transition shadow-md flex items-center gap-2">
+                    <i class="fa-brands fa-facebook-f"></i> Community Page
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="relative bg-gradient-to-r from-gray-950 via-gray-900 to-red-950 py-24 lg:py-32 overflow-hidden border-b border-gray-800">
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#dc2626_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="inline-block bg-red-600/20 text-red-400 border border-red-600/30 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">
+                    Est. 1978 • Protecting Butler County
+                </span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white mb-6 uppercase">
+                    Dedicated to <span class="text-red-600">Protecting</span> Our Community.
+                </h1>
+                <p class="text-gray-300 text-lg mb-8 leading-relaxed">
+                    Butler County Fire District No. 9 is a proud 100% volunteer fire department operating out of Leon, Kansas. Covering the largest geographic district area in Butler County, our team is always ready to respond when disaster strikes.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:shadow-red-600/30 transition">
+                        Get in Touch
+                    </a>
+                    <a href="https://www.facebook.com/share/1DSNvpsRje/?mibextid=wwXIfr" target="_blank" class="bg-gray-800 hover:bg-gray-700 text-white font-bold px-8 py-3 rounded-lg border border-gray-700 transition flex items-center gap-2">
+                        <i class="fa-brands fa-facebook text-blue-500"></i> Follow Updates
+                    </a>
+                </div>
+            </div>
+            <div class="relative flex justify-center">
+                <div class="w-full max-w-md bg-gray-900 border border-gray-800 p-6 rounded-2xl shadow-2xl relative">
+                    <div class="absolute -top-3 -right-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow">
+                        Largest District Area
+                    </div>
+                    <div class="text-center mb-6">
+                        <h3 class="text-xl font-bold text-white uppercase tracking-wider">District Quick Facts</h3>
+                    </div>
+                    <ul class="space-y-4 text-sm text-gray-300">
+                        <li class="flex justify-between items-center border-b border-gray-800 pb-3">
+                            <span class="text-gray-400"><i class="fa-solid fa-users text-red-500 mr-2"></i> Personnel Status</span>
+                            <span class="font-bold text-white">100% Volunteer</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-gray-800 pb-3">
+                            <span class="text-gray-400"><i class="fa-solid fa-map-location-dot text-red-500 mr-2"></i> Location</span>
+                            <span class="font-bold text-white">Leon, Kansas</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-gray-800 pb-3">
+                            <span class="text-gray-400"><i class="fa-solid fa-phone text-red-500 mr-2"></i> Main Line</span>
+                            <span class="font-bold text-white">316-745-3658</span>
+                        </li>
+                        <li class="flex justify-between items-center">
+                            <span class="text-gray-400"><i class="fa-solid fa-envelope text-red-500 mr-2"></i> Email</span>
+                            <span class="font-bold text-white text-xs sm:text-sm">communications@bcfd9.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-black text-white uppercase tracking-tight mb-4">About District No. 9</h2>
+                <div class="w-20 h-1 bg-red-600 mx-auto mb-6"></div>
+                <p class="text-gray-400 text-lg">
+                    Serving Leon and the surrounding rural expanses with unwavering commitment, local bravery, and professional readiness.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-800/50 border border-gray-800 p-8 rounded-xl shadow-md">
+                    <div class="w-12 h-12 bg-red-600/20 text-red-500 rounded-lg flex items-center justify-center text-xl mb-6 font-bold border border-red-600/30">
+                        <i class="fa-solid fa-shield"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">100% Volunteer Force</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Our department is powered completely by dedicated local volunteers who sacrifice their time, sleep, and comfort to protect neighbors and property.
+                    </p>
+                </div>
+                <div class="bg-gray-800/50 border border-gray-800 p-8 rounded-xl shadow-md">
+                    <div class="w-12 h-12 bg-red-600/20 text-red-500 rounded-lg flex items-center justify-center text-xl mb-6 font-bold border border-red-600/30">
+                        <i class="fa-solid fa-map"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Maximum Coverage Area</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        BCFD No. 9 proudly manages the largest geographic district coverage area across all fire departments within Butler County.
+                    </p>
+                </div>
+                <div class="bg-gray-800/50 border border-gray-800 p-8 rounded-xl shadow-md">
+                    <div class="w-12 h-12 bg-red-600/20 text-red-500 rounded-lg flex items-center justify-center text-xl mb-6 font-bold border border-red-600/30">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Always Ready</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Equipped for structural fires, rescue operations, and rural brush hazards 24 hours a day, 7 days a week, 365 days a year.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEADERSHIP SECTION -->
+    <section id="leadership" class="py-20 bg-gray-950 border-t border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-black text-white uppercase tracking-tight mb-4">Department Leadership</h2>
+                <div class="w-20 h-1 bg-red-600 mx-auto mb-6"></div>
+                <p class="text-gray-400 text-lg">
+                    Guiding our team of volunteers with experience, discipline, and local dedication.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Fire Chief -->
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8 text-center shadow-xl relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-full h-2 bg-red-600"></div>
+                    <div class="w-24 h-24 bg-red-950 text-red-500 rounded-full flex items-center justify-center text-3xl mx-auto mb-6 border-2 border-red-600/50 shadow-inner">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-1">Kevin Worrell</h3>
+                    <p class="text-red-500 font-semibold uppercase tracking-wider text-sm mb-4">Fire Chief</p>
+                    <p class="text-gray-400 text-sm">
+                        Directing emergency operations, administrative protocols, and strategic disaster response for District No. 9.
+                    </p>
+                </div>
+                <!-- Assistant Fire Chief -->
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8 text-center shadow-xl relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-full h-2 bg-red-600"></div>
+                    <div class="w-24 h-24 bg-red-950 text-red-500 rounded-full flex items-center justify-center text-3xl mx-auto mb-6 border-2 border-red-600/50 shadow-inner">
+                        <i class="fa-solid fa-user-gear"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-1">Steve Shaffer</h3>
+                    <p class="text-red-500 font-semibold uppercase tracking-wider text-sm mb-4">Assistant Fire Chief</p>
+                    <p class="text-gray-400 text-sm">
+                        Assisting executive direction, apparatus maintenance oversight, and operational readiness in the field.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APPARATUS SECTION -->
+    <section id="apparatus" class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-black text-white uppercase tracking-tight mb-4">Fleet & Apparatus</h2>
+                <div class="w-20 h-1 bg-red-600 mx-auto mb-6"></div>
+                <p class="text-gray-400 text-lg">
+                    Equipped and maintained to handle the diverse requirements of rural and structural responses.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-800 border border-gray-700 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-64 bg-gray-900 flex items-center justify-center overflow-hidden">
+                        <!-- Drop your truck image filenames here -->
+                        <img src="image.png" alt="District Fire Truck 3" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-red-500 uppercase tracking-widest">Brush / Attack Unit</span>
+                        <h3 class="text-xl font-bold text-white mt-1 mb-2">District 9 - Unit 3</h3>
+                        <p class="text-gray-400 text-sm">Engineered for quick response times on rural grass, brush, and field calls across our wide district territory.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-800 border border-gray-700 rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-64 bg-gray-900 flex items-center justify-center overflow-hidden">
+                        <!-- Drop your truck image filenames here -->
+                        <img src="image_2.png" alt="District Rescue 95" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-red-500 uppercase tracking-widest">Rescue / Engine Unit</span>
+                        <h3 class="text-xl font-bold text-white mt-1 mb-2">Rescue 95</h3>
+                        <p class="text-gray-400 text-sm">Heavy-duty response apparatus equipped for structural firefighting, rescue tasks, and comprehensive scene support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & INFO SECTION -->
+    <section id="contact" class="py-20 bg-gray-950 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-black text-white uppercase tracking-tight mb-4">Contact District No. 9</h2>
+                    <div class="w-20 h-1 bg-red-600 mb-6"></div>
+                    <p class="text-gray-400 mb-8">
+                        Need to reach out regarding non-emergency matters, public questions, or community coordination? Feel free to contact us directly or visit our station house.
+                    </p>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-red-600/20 text-red-500 rounded-lg flex items-center justify-center shrink-0 border border-red-600/30">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold">Station Address</h4>
+                                <p class="text-gray-400 text-sm">201 S. Main St.<br>Leon, KS 67074</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-red-600/20 text-red-500 rounded-lg flex items-center justify-center shrink-0 border border-red-600/30">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold">Phone Number</h4>
+                                <p class="text-gray-400 text-sm"><a href="tel:3167453658" class="hover:text-white transition">316-745-3658</a></p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-red-600/20 text-red-500 rounded-lg flex items-center justify-center shrink-0 border border-red-600/30">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold">Email Address</h4>
+                                <p class="text-gray-400 text-sm"><a href="mailto:communications@bcfd9.com" class="hover:text-white transition">communications@bcfd9.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-900 border border-gray-800 p-8 rounded-2xl shadow-xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-white uppercase tracking-wider mb-4">Connect on Social Media</h3>
+                        <p class="text-gray-400 text-sm mb-6">
+                            Stay up-to-date with local safety notices, department announcements, and community events by visiting our official Facebook page.
+                        </p>
+                    </div>
+                    <a href="https://www.facebook.com/share/1DSNvpsRje/?mibextid=wwXIfr" target="_blank" class="w-full bg-[#1877F2] hover:bg-[#166fe5] text-white font-bold py-4 rounded-xl transition flex items-center justify-center gap-3 shadow-lg">
+                        <i class="fa-brands fa-facebook text-xl"></i> Visit BCFD #9 Facebook Page
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-500 py-8 border-t border-gray-800 text-xs text-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-2">
+            <p>&copy; 2026 Butler County Fire District No. 9 • Leon, Kansas. All Rights Reserved.</p>
+            <p class="text-gray-600">100% Volunteer Fire & Rescue Operations</p>
+        </div>
+    </footer>
+
+</body>
+</html>
